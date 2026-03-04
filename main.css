@@ -44,3 +44,9 @@ main {
     color: white;
     grid-area: main;
 }
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
