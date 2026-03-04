@@ -50,3 +50,15 @@ footer {
     color: white;
     grid-area: footer;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer"
+    ;
+}
