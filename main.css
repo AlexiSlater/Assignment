@@ -38,3 +38,9 @@ nav {
     grid-area: nav;
     
 }
+
+main {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+}
