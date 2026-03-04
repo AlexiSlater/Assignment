@@ -7,4 +7,15 @@
 h1 {
     color: rgb(212, 72, 156);
     font-size: 3em;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #e68cca;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
