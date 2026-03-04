@@ -32,3 +32,9 @@ header {
     background-image: url('bannerweb.jpeg');
     background-size: contain;
 }
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+    
+}
