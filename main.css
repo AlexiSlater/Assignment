@@ -24,3 +24,11 @@ a {
     color: hotpink;
     text-decoration: none;
 }
+
+header {
+    color: white;
+    padding: 20px;
+    grid-area: header;
+    background-image: url('bannerweb.jpeg');
+    background-size: contain;
+}
