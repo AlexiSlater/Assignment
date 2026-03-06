@@ -1,0 +1,59 @@
+header {
+    background-color: blue;
+    color: white;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+}
+
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer"
+    ;
+}
+
+.on{
+    display:none;
+}
+
+.off{
+    display:none;
+}
+
+.shownav{
+    display:none;
+}
+
+id{
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+

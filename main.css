@@ -63,10 +63,11 @@ body {
     ;
 }
 
-nav ul{
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: space-around;
-    list-style: none;
+    text-align: center;
 }
 
 header h1{

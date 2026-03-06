@@ -1,0 +1,66 @@
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+nav {
+    background-color: yellow;
+}
+main {
+    background-color: darkblue;
+    color: white;
+}
+aside {
+    background-color: lightgreen;
+}
+footer {
+    background-color: darkgreen;
+    color: white;
+}
+
+.showNav:before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid #fff;
+}
+
+.showNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}
+
+nav {
+display: none;
+background-color: yellow;
+position: fixed;
+top: 0;
+left: 50%;
+width: 50%;
+height: 100vh;
+}
+
+#clicked:target nav {
+    display: block;
+}
+
+#clicked .on{
+    display: block;
+}
+
+#clicked .off{
+    display:none;
+}
+
+#clicked:target .on{
+    display: none;
+}
+
+#clicked:target .off{
+    display: block;
+}
