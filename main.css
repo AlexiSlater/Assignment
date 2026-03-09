@@ -74,3 +74,18 @@ header h1{
 .firstboxproj{
     border: 1px solid black;
 }
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+div img{
+    width: 100%;
+}
+
+.project div {
+    border: 1px solid black;
+    padding: 2px;
+}
