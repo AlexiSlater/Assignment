@@ -29,6 +29,7 @@ footer {
 nav {
 display: none;
 position: fixed;
+background-color: white;
 top: 0;
 left: 50%;
 width: 50%;
@@ -53,4 +54,8 @@ height: 100vh;
 
 #clicked:target .off{
     display: block;
+}
+
+.off {
+    color: black;
 }

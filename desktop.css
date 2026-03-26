@@ -29,6 +29,27 @@ body {
     ;
 }
 
+nav > ul > li {
+    position: relative;
+    width: 100%;
+}
+
+nav ul ul {
+    position: absolute;
+    background-color: pink;
+    display: block;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    pointer-events: none;
+}
+
+nav > ul > li:hover ul {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .on{
     display:none;
 }
