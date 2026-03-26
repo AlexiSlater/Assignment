@@ -4,3 +4,92 @@
 
 }
 
+:root{
+    --darkerpink: rgb(212, 72, 156);
+    --lighterpink: #e68cca;
+
+}
+
+h1 {
+    color: var(--darkerpink);
+    font-size: 3em;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    grid-area: header;
+    background-image: url('bannerweb.jpeg');
+    background-size: contain;
+    height: 8em;
+}
+
+nav {
+    grid-area: nav;
+    
+}
+
+main {
+    grid-area: main;
+    height: 10em;
+
+}
+
+footer {
+    color: white;
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer"
+    ;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+div img{
+    width: 100%;
+}
+
+.project div {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+
+
+
